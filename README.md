@@ -7,10 +7,9 @@ Cypher-Based QA with Neo4j: Seamlessly query movie knowledge using natural langu
 ChatGroq LLM Integration: Leverages ChatGroq's Gemma2-9b-It model for advanced language understanding.
 Dynamic Movie Data: Includes CSV-based movie data import, enriched with relationships between actors, directors, genres, and movies.
 
-Installation
-1)Clone this repository:
-git clone https://github.com/DarshanG12/GRAPH_DB_CHATBOT_NEO4J.git
 
+1)Open the Colab Notebook:
+Access the notebook from GitHub: .
 
 2)Install Dependencies: Install packages from requirements.txt:
 pip install -r requirements.txt
