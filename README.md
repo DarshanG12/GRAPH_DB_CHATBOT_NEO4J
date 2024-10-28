@@ -9,8 +9,8 @@ Dynamic Movie Data: Includes CSV-based movie data import, enriched with relation
 
 Installation
 1)Clone this repository:
-git clone https://github.com/your-username/your-repo.git
-cd your-repo
+git clone https://github.com/DarshanG12/GRAPH_DB_CHATBOT_NEO4J.git
+
 
 2)Install Dependencies: Install packages from requirements.txt:
 pip install -r requirements.txt
