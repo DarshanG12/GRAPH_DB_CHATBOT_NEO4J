@@ -9,7 +9,7 @@ Dynamic Movie Data: Includes CSV-based movie data import, enriched with relation
 
 
 1)Open the Colab Notebook:
-Access the notebook from GitHub: .
+Access the notebook from GitHub: https://github.com/DarshanG12/GRAPH_DB_CHATBOT_NEO4J.git.
 
 2)Install Dependencies: Install packages from requirements.txt:
 pip install -r requirements.txt
