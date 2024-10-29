@@ -1,3 +1,4 @@
+
 ## Movie Knowledge Graph Chatbot with LangChain and Neo4j
 
 This project is a chatbot application designed to query and interact with a Neo4j graph database populated with movie data. Using LangChain's Cypher-based question-answering capabilities and ChatGroq's LLM, the chatbot responds to complex questions about movies, directors, and actors based on the Neo4j dataset.
@@ -27,11 +28,13 @@ Add NEO4J_URI, NEO4J_USERNAME, and NEO4J_PASSWORD to Google Colab's userdata.
 
 ## Usage
 Load the Movie Dataset into Neo4j: Run the movie_query Cypher command to populate Neo4j with movie data:
+```
 movie_query = """
 LOAD CSV WITH HEADERS FROM 'https://raw.githubusercontent.com/tomasonjo/blog-datasets/main/movies/movies_small.csv' as row
 ...
 """
 graph.query(movie_query)
+```
 
 
 Query the Chatbot: Use GraphCypherQAChain to ask questions. Examples:
